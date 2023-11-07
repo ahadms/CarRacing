@@ -1,0 +1,4899 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp:
+    - BCG_EnterExitPlayer
+    - BCG_EnterExitSettings
+    - BCG_FPSController
+    - RCC_Camera
+    - RCC_CarControllerV3
+    - RCC_ChangableWheels
+    - RCC_CharacterController
+    - RCC_CinematicCamera
+    - RCC_ColorPickerBySliders
+    - RCC_CustomizerExample
+    - RCC_DashboardColors
+    - RCC_DashboardInputs
+    - RCC_DashboardObjects
+    - RCC_Demo
+    - RCC_DemoMaterials
+    - RCC_DemoVehicles
+    - RCC_DetachablePart
+    - RCC_Exhaust
+    - RCC_FOVForCinematicCamera
+    - RCC_GroundMaterials
+    - RCC_HoodCamera
+    - RCC_InfoLabel
+    - RCC_InitialSettings
+    - RCC_Light
+    - RCC_Mirror
+    - RCC_MobileButtons
+    - RCC_MobileUIDrag
+    - RCC_PoliceSiren
+    - RCC_Records
+    - RCC_Settings
+    - RCC_Skidmarks
+    - RCC_SkidmarksManager
+    - RCC_Telemetry
+    - RCC_TrailerAttachPoint
+    - RCC_UIController
+    - RCC_UIDashboardButton
+    - RCC_UIDashboardDisplay
+    - RCC_UIJoystick
+    - RCC_UISliderTextReader
+    - RCC_UISteeringWheelController
+    - RCC_UI_Canvas_Modification
+    - RCC_UI_Color
+    - RCC_UI_MobileDrag
+    - RCC_UI_Siren
+    - RCC_UI_Spoiler
+    - RCC_UI_Upgrade
+    - RCC_UI_Wheel
+    - RCC_Useless
+    - RCC_VehicleUpgrade_Brake
+    - RCC_VehicleUpgrade_Engine
+    - RCC_VehicleUpgrade_Handling
+    - RCC_VehicleUpgrade_Paint
+    - RCC_VehicleUpgrade_PaintManager
+    - RCC_VehicleUpgrade_Siren
+    - RCC_VehicleUpgrade_SirenManager
+    - RCC_VehicleUpgrade_Spoiler
+    - RCC_VehicleUpgrade_SpoilerManager
+    - RCC_VehicleUpgrade_UpgradeManager
+    - RCC_VehicleUpgrade_WheelManager
+    - RCC_WheelCamera
+    - RCC_WheelCollider
+    - SkidTrailAI
+    Assembly-CSharp-firstpass.dll:
+    - UnityStandardAssets.Utility.WaypointCircuit
+    - UnityStandardAssets.Utility.WaypointProgressTracker
+    - UnityStandardAssets.Vehicles.Car.BrakeLight
+    - UnityStandardAssets.Vehicles.Car.CarAIControl
+    - UnityStandardAssets.Vehicles.Car.CarAudio
+    - UnityStandardAssets.Vehicles.Car.CarController
+    - UnityStandardAssets.Vehicles.Car.CarUserControl
+    - UnityStandardAssets.Vehicles.Car.Mudguard
+    - UnityStandardAssets.Vehicles.Car.SkidTrail
+    - UnityStandardAssets.Vehicles.Car.Suspension
+    - UnityStandardAssets.Vehicles.Car.WheelEffects
+    Assembly-CSharp.dll:
+    - FenceLayout
+    - RCC_Camera
+    - RCC_CarControllerV3
+    - RCC_CinematicCamera
+    - RCC_ColorPickerBySliders
+    - RCC_CustomizerExample
+    - RCC_DashboardColors
+    - RCC_DashboardInputs
+    - RCC_Demo
+    - RCC_DetachablePart
+    - RCC_Exhaust
+    - RCC_FOVForCinematicCamera
+    - RCC_HoodCamera
+    - RCC_InfoLabel
+    - RCC_Light
+    - RCC_Mirror
+    - RCC_MobileButtons
+    - RCC_MobileUIDrag
+    - RCC_SceneManager
+    - RCC_Settings
+    - RCC_SkidmarksManager
+    - RCC_Telemetry
+    - RCC_UIController
+    - RCC_UIDashboardButton
+    - RCC_UIDashboardDisplay
+    - RCC_UIJoystick
+    - RCC_UISliderTextReader
+    - RCC_UISteeringWheelController
+    - RCC_UI_Canvas_Modification
+    - RCC_UI_Color
+    - RCC_UI_MobileDrag
+    - RCC_UI_Siren
+    - RCC_UI_Spoiler
+    - RCC_UI_Upgrade
+    - RCC_UI_Wheel
+    - RCC_Useless
+    - RCC_WheelCamera
+    - RCC_WheelCollider
+    - VehiclePhysics.UI.AidsPanel
+    - VehiclePhysics.UI.CloseOnKeyOrClick
+    - VehiclePhysics.UI.Dashboard
+    - VehiclePhysics.UI.EscapeDialog
+    - VehiclePhysics.UI.Gauge
+    - VehiclePhysics.UI.GenericMenu
+    - VehiclePhysics.UI.HoverHandler
+    - VehiclePhysics.UI.IgnitionKey
+    - VehiclePhysics.UI.InputMonitor
+    - VehiclePhysics.UI.MenuOverlay
+    - VehiclePhysics.UI.MultiToggle
+    - VehiclePhysics.UI.VehicleSetupDialog
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineTransposer
+    - Cinemachine.CinemachineVirtualCamera
+    EasyRoads3Dv3.dll:
+    - ERSurfaceScript
+    - EasyRoads3Dv3.ERConnectionParent
+    - EasyRoads3Dv3.ERMarkerExt
+    - EasyRoads3Dv3.ERModularBase
+    - EasyRoads3Dv3.ERModularRoad
+    - EasyRoads3Dv3.ERRoadNetworkObject
+    - EasyRoads3Dv3.ERSideObjectLog
+    - EasyRoads3Dv3.ERTerrain
+    PhotonUnityNetworking:
+    - Photon.Pun.PhotonAnimatorView
+    - Photon.Pun.PhotonRigidbodyView
+    - Photon.Pun.PhotonTransformView
+    - Photon.Pun.PhotonView
+    - Photon.Pun.ServerSettings
+    PhotonUnityNetworking.Demos:
+    - Photon.Pun.Demo.Asteroids.Asteroid
+    - Photon.Pun.Demo.Asteroids.Bullet
+    - Photon.Pun.Demo.Asteroids.Spaceship
+    - Photon.Pun.Demo.PunBasics.CameraWork
+    - Photon.Pun.Demo.PunBasics.PlayerAnimatorManager
+    - Photon.Pun.Demo.PunBasics.PlayerManager
+    - Photon.Pun.Demo.PunBasics.PlayerUI
+    - Photon.Pun.Demo.SlotRacer.PlayerControl
+    - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
+    PhotonUnityNetworking.dll:
+    - Photon.Pun.ServerSettings
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    VehiclePhysics.dll:
+    - VehiclePhysics.VPAeroSurface
+    - VehiclePhysics.VPAntiRollBar
+    - VehiclePhysics.VPAudio
+    - VehiclePhysics.VPCameraController
+    - VehiclePhysics.VPCameraTarget
+    - VehiclePhysics.VPResetVehicle
+    - VehiclePhysics.VPRollingFriction
+    - VehiclePhysics.VPStandardInput
+    - VehiclePhysics.VPTelemetry
+    - VehiclePhysics.VPVehicleController
+    - VehiclePhysics.VPVisualEffects
+    - VehiclePhysics.VPWheelCollider
+  serializedClasses:
+    Assembly-CSharp:
+    - .BCG_Inputs
+    - .RCC_Camera/CameraTarget
+    - .RCC_CarControllerV3/Gear
+    - .RCC_ChangableWheels/ChangableWheels
+    - .RCC_Damage
+    - .RCC_DashboardObjects/FuelDial
+    - .RCC_DashboardObjects/HeatDial
+    - .RCC_DashboardObjects/RPMDial
+    - .RCC_DashboardObjects/SpeedoMeterDial
+    - .RCC_Emission
+    - .RCC_GroundMaterials/GroundMaterialFrictions
+    - .RCC_GroundMaterials/TerrainFrictions
+    - .RCC_GroundMaterials/TerrainFrictions/SplatmapIndexes
+    - .RCC_Inputs
+    - .RCC_Settings/BehaviorType
+    - VehiclePhysics.UI.Dashboard/Needle
+    - VehiclePhysics.UI.GenericMenu/MenuItem
+    Assembly-CSharp-firstpass:
+    - UnityStandardAssets.Utility.WaypointCircuit/WaypointList
+    Cinemachine:
+    - Cinemachine.CinemachineBlendDefinition
+    - Cinemachine.CinemachineBrain/BrainEvent
+    - Cinemachine.CinemachineBrain/VcamActivatedEvent
+    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
+    - Cinemachine.LensSettings
+    EasyRoads3Dv3:
+    - EasyRoads3Dv3.ERCrossWalkType
+    - EasyRoads3Dv3.ERLaneDirection
+    - EasyRoads3Dv3.ERMarkerControlType
+    - EasyRoads3Dv3.ERRoadShape
+    - EasyRoads3Dv3.ERRoadWayType
+    - EasyRoads3Dv3.ERSideWalk
+    - EasyRoads3Dv3.ERTerrainChange
+    - EasyRoads3Dv3.ERTerrainData
+    - EasyRoads3Dv3.ERTree
+    - EasyRoads3Dv3.QDQDOOQQDQODD
+    - EasyRoads3Dv3.tPoint
+    PhotonRealtime:
+    - Photon.Realtime.AppSettings
+    PhotonUnityNetworking:
+    - Photon.Pun.PhotonAnimatorView/SynchronizedLayer
+    - Photon.Pun.PhotonAnimatorView/SynchronizedParameter
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.IMGUIModule:
+    - UnityEngine.GUIContent
+    - UnityEngine.GUISettings
+    - UnityEngine.GUIStyle
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionData
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+    VehiclePhysics:
+    - EdyCommonTools.RotationController/Rotation
+    - VehiclePhysics.AntiSpin/Settings
+    - VehiclePhysics.Brakes/AbsSettings
+    - VehiclePhysics.Brakes/Settings
+    - VehiclePhysics.CameraAttachTo
+    - VehiclePhysics.CameraFree
+    - VehiclePhysics.CameraLookAt
+    - VehiclePhysics.CameraOrbit
+    - VehiclePhysics.CameraSmoothFollow
+    - VehiclePhysics.Differential/Settings
+    - VehiclePhysics.Driveline/Settings
+    - VehiclePhysics.Engine/ClutchSettings
+    - VehiclePhysics.Engine/Settings
+    - VehiclePhysics.Gearbox/Settings
+    - VehiclePhysics.Inertia/Settings
+    - VehiclePhysics.SpeedControl/Settings
+    - VehiclePhysics.StabilityControl/Settings
+    - VehiclePhysics.Steering/Settings
+    - VehiclePhysics.SteeringAids/Settings
+    - VehiclePhysics.Telemetry
+    - VehiclePhysics.TireFriction
+    - VehiclePhysics.TireFriction/Settings
+    - VehiclePhysics.TorqueSplitter/Settings
+    - VehiclePhysics.TractionControl/Settings
+    - VehiclePhysics.VPAudio/Drags
+    - VehiclePhysics.VPAudio/Engine
+    - VehiclePhysics.VPAudio/EngineExtras
+    - VehiclePhysics.VPAudio/Impacts
+    - VehiclePhysics.VPAudio/Wheels
+    - VehiclePhysics.VPAudio/Wind
+    - VehiclePhysics.VPAxle
+    - VehiclePhysics.VPCameraTarget/CustomCamera
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 650}
+    - Class: 114
+      Script: {instanceID: 26354}
+    - Class: 114
+      Script: {instanceID: 26404}
+    - Class: 114
+      Script: {instanceID: 26482}
+    - Class: 114
+      Script: {instanceID: 26510}
+    - Class: 114
+      Script: {instanceID: 26764}
+    - Class: 114
+      Script: {instanceID: 26830}
+    - Class: 114
+      Script: {instanceID: 26934}
+    - Class: 114
+      Script: {instanceID: 26960}
+    - Class: 114
+      Script: {instanceID: 26980}
+    - Class: 114
+      Script: {instanceID: 27114}
+    - Class: 114
+      Script: {instanceID: 27170}
+    - Class: 114
+      Script: {instanceID: 27268}
+    - Class: 114
+      Script: {instanceID: 27580}
+    - Class: 114
+      Script: {instanceID: 27590}
+    - Class: 114
+      Script: {instanceID: 27648}
+    - Class: 114
+      Script: {instanceID: 27732}
+    - Class: 114
+      Script: {instanceID: 27738}
+    - Class: 114
+      Script: {instanceID: 27792}
+    - Class: 114
+      Script: {instanceID: 27912}
+    - Class: 114
+      Script: {instanceID: 27974}
+    - Class: 114
+      Script: {instanceID: 28000}
+    - Class: 114
+      Script: {instanceID: 28026}
+    - Class: 114
+      Script: {instanceID: 28096}
+    - Class: 114
+      Script: {instanceID: 28300}
+    - Class: 114
+      Script: {instanceID: 28310}
+    - Class: 114
+      Script: {instanceID: 28322}
+    - Class: 114
+      Script: {instanceID: 28328}
+    - Class: 114
+      Script: {instanceID: 28460}
+    - Class: 114
+      Script: {instanceID: 28464}
+    - Class: 114
+      Script: {instanceID: 28596}
+    - Class: 114
+      Script: {instanceID: 28620}
+    - Class: 114
+      Script: {instanceID: 28728}
+    - Class: 114
+      Script: {instanceID: 28748}
+    - Class: 114
+      Script: {instanceID: 28808}
+    - Class: 114
+      Script: {instanceID: 28832}
+    - Class: 114
+      Script: {instanceID: 28858}
+    - Class: 114
+      Script: {instanceID: 28878}
+    - Class: 114
+      Script: {instanceID: 28880}
+    - Class: 114
+      Script: {instanceID: 28888}
+    - Class: 114
+      Script: {instanceID: 29042}
+    - Class: 114
+      Script: {instanceID: 29080}
+    - Class: 114
+      Script: {instanceID: 29170}
+    - Class: 114
+      Script: {instanceID: 29266}
+    - Class: 114
+      Script: {instanceID: 29286}
+    - Class: 114
+      Script: {instanceID: 29302}
+    - Class: 114
+      Script: {instanceID: 29390}
+    - Class: 114
+      Script: {instanceID: 29468}
+    - Class: 114
+      Script: {instanceID: 29480}
+    - Class: 114
+      Script: {instanceID: 29552}
+    - Class: 114
+      Script: {instanceID: 29574}
+    - Class: 114
+      Script: {instanceID: 29616}
+    - Class: 114
+      Script: {instanceID: 29646}
+    - Class: 114
+      Script: {instanceID: 29686}
+    - Class: 114
+      Script: {instanceID: 29756}
+    - Class: 114
+      Script: {instanceID: 29818}
+    - Class: 114
+      Script: {instanceID: 29842}
+    - Class: 114
+      Script: {instanceID: 29892}
+    - Class: 114
+      Script: {instanceID: 29904}
+    - Class: 114
+      Script: {instanceID: 29928}
+    - Class: 114
+      Script: {instanceID: 29972}
+    - Class: 114
+      Script: {instanceID: 29994}
+    - Class: 114
+      Script: {instanceID: 30010}
+    - Class: 114
+      Script: {instanceID: 30012}
+    - Class: 114
+      Script: {instanceID: 30042}
+    - Class: 114
+      Script: {instanceID: 30048}
+    - Class: 114
+      Script: {instanceID: 30214}
+    - Class: 114
+      Script: {instanceID: 30222}
+    - Class: 114
+      Script: {instanceID: 30258}
+    - Class: 114
+      Script: {instanceID: 30290}
+    - Class: 114
+      Script: {instanceID: 30468}
+    - Class: 114
+      Script: {instanceID: 30512}
+    - Class: 114
+      Script: {instanceID: 30530}
+    - Class: 114
+      Script: {instanceID: 30742}
+    - Class: 114
+      Script: {instanceID: 30792}
+    - Class: 114
+      Script: {instanceID: 30832}
+    - Class: 114
+      Script: {instanceID: 30908}
+    - Class: 114
+      Script: {instanceID: 30978}
+    - Class: 114
+      Script: {instanceID: 31046}
+    - Class: 114
+      Script: {instanceID: 31056}
+    - Class: 114
+      Script: {instanceID: 31148}
+    - Class: 114
+      Script: {instanceID: 31206}
+    - Class: 114
+      Script: {instanceID: 31214}
+    - Class: 114
+      Script: {instanceID: 31334}
+    - Class: 114
+      Script: {instanceID: 31680}
+    - Class: 114
+      Script: {instanceID: 31714}
+    - Class: 114
+      Script: {instanceID: 31788}
+    - Class: 114
+      Script: {instanceID: 31812}
+    - Class: 114
+      Script: {instanceID: 31838}
+    - Class: 114
+      Script: {instanceID: 31880}
+    - Class: 114
+      Script: {instanceID: 32016}
+    - Class: 114
+      Script: {instanceID: 32110}
+    - Class: 114
+      Script: {instanceID: 32124}
+    - Class: 114
+      Script: {instanceID: 32146}
+    - Class: 114
+      Script: {instanceID: 32198}
+    - Class: 114
+      Script: {instanceID: 32278}
+    - Class: 114
+      Script: {instanceID: 32352}
+    - Class: 114
+      Script: {instanceID: 32490}
+    - Class: 114
+      Script: {instanceID: 32492}
+    - Class: 114
+      Script: {instanceID: 32598}
+    - Class: 114
+      Script: {instanceID: 32902}
+    - Class: 114
+      Script: {instanceID: 32972}
+    - Class: 114
+      Script: {instanceID: 33026}
+    - Class: 114
+      Script: {instanceID: 33062}
+    - Class: 114
+      Script: {instanceID: 33092}
+    - Class: 114
+      Script: {instanceID: 33196}
+    - Class: 114
+      Script: {instanceID: 33336}
+    - Class: 114
+      Script: {instanceID: 33380}
+    - Class: 114
+      Script: {instanceID: 33414}
+    - Class: 114
+      Script: {instanceID: 33550}
+    - Class: 114
+      Script: {instanceID: 33558}
+    - Class: 114
+      Script: {instanceID: 33562}
+    - Class: 114
+      Script: {instanceID: 33578}
+    - Class: 114
+      Script: {instanceID: 33646}
+    - Class: 114
+      Script: {instanceID: 33716}
+    - Class: 114
+      Script: {instanceID: 33774}
+    - Class: 114
+      Script: {instanceID: 33858}
+    - Class: 114
+      Script: {instanceID: 33868}
+    - Class: 114
+      Script: {instanceID: 33900}
+    - Class: 114
+      Script: {instanceID: 33960}
+    - Class: 114
+      Script: {instanceID: 33974}
+    - Class: 114
+      Script: {instanceID: 33980}
+    - Class: 114
+      Script: {instanceID: 34068}
+    - Class: 114
+      Script: {instanceID: 34260}
+    - Class: 114
+      Script: {instanceID: 34294}
+    - Class: 114
+      Script: {instanceID: 34394}
+    - Class: 114
+      Script: {instanceID: 34486}
+    - Class: 114
+      Script: {instanceID: 34524}
+    - Class: 114
+      Script: {instanceID: 34546}
+    - Class: 114
+      Script: {instanceID: 34660}
+    - Class: 114
+      Script: {instanceID: 34676}
+    - Class: 114
+      Script: {instanceID: 34700}
+    - Class: 114
+      Script: {instanceID: 34718}
+    - Class: 114
+      Script: {instanceID: 34724}
+    - Class: 114
+      Script: {instanceID: 34742}
+    - Class: 114
+      Script: {instanceID: 34758}
+    - Class: 114
+      Script: {instanceID: 34772}
+    - Class: 114
+      Script: {instanceID: 34796}
+    - Class: 114
+      Script: {instanceID: 34808}
+    - Class: 114
+      Script: {instanceID: 34984}
+    - Class: 114
+      Script: {instanceID: 34986}
+    - Class: 114
+      Script: {instanceID: 34988}
+    - Class: 114
+      Script: {instanceID: 34990}
+    - Class: 114
+      Script: {instanceID: 34992}
+    - Class: 114
+      Script: {instanceID: 34994}
+    - Class: 114
+      Script: {instanceID: 34998}
+    - Class: 114
+      Script: {instanceID: 35002}
+    - Class: 114
+      Script: {instanceID: 35006}
+    - Class: 114
+      Script: {instanceID: 35008}
+    - Class: 114
+      Script: {instanceID: 35010}
+    - Class: 114
+      Script: {instanceID: 35014}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 121
+      Script: {instanceID: 0}
+    - Class: 123
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 146
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 169
+      Script: {instanceID: 0}
+    - Class: 193
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 226
+      Script: {instanceID: 0}
+    - Class: 227
+      Script: {instanceID: 0}
+    - Class: 228
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomPropertiesListedInLobbyProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 3aa97eda92c00ff0f6ff58a0db58368f
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 169b9e0bb0b9a973431a71c6494eb307
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: ConnectAndJoinRandom
+  - hash:
+      serializedVersion: 2
+      Hash: ad49509bcdee901e7be1a1ce46e4dfda
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PlayerDetailsController
+  - hash:
+      serializedVersion: 2
+      Hash: 504316c7cc7a276370b1df1f3fa01d59
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.Utility
+    className: FollowHeading
+  - hash:
+      serializedVersion: 2
+      Hash: b12770e39c579d25791fc251a1c6e2a2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Useless
+  - hash:
+      serializedVersion: 2
+      Hash: c343da5828fddd0a899e69eb0f447fd5
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e1b25d6f2cf1bdbe674134afad6c2d9d
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: GraphicToggleIsOnTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: Bullet
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_LevelLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d2cdc988562557524570d164f7c0abfa
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CrcCheckToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 6bd289a775a9676b7d7d880eeedf3646
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: StringInputField
+  - hash:
+      serializedVersion: 2
+      Hash: 756aaa590a87695718f5d65d508f1931
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: ServerAddressProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 11796674f8344c49967fb3faf375fa51
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer
+    className: SlotRacerSplashScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 0624fb6b561870487f6920f28964e4f1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PlayerListCell
+  - hash:
+      serializedVersion: 2
+      Hash: 36b543274cdbb392d5e95ad9d34a4b3a
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: 5aeef5df70474c80ec3cd4feb30abad2
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4b5933476ac7d47b2c136849b92b9a2d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplaneUserControl2Axis
+  - hash:
+      serializedVersion: 2
+      Hash: 99cdc8691d54a29222a8ffe6442799d9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 54ec4b678440616b47350305d0df4461
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: WaterTile
+  - hash:
+      serializedVersion: 2
+      Hash: f18112b277828887705e97607164df47
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_MobileCharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: 34096a327d779b7c96a3e390f3559143
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e1b25d6f2cf1bdbe674134afad6c2d9d
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: TextToggleIsOnTransition
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CountOfRoomsProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf8ca57e592d09dcd47adc6b7599c47
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: ParticleSystemDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2684abd00455f43403f8a55609cfa2
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonRigidbodyView
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets._2D
+    className: Restarter
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0940abcee0165b51af860ec5afc1a8
+    assemblyName: PhotonRealtime
+    namespaceName: Photon.Realtime
+    className: ConnectionHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: bc4f24c0b404fcc437388a2e79ba6eda
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CarControllerV3
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_Version
+  - hash:
+      serializedVersion: 2
+      Hash: 43c176d094cb12cae28266d5b205ebc1
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 6498fc76484598db46c5c1a11bab42fa
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomIsOfflineProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 7f4ecde5149b8933837f6d37a8635ace
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: TiltInput
+  - hash:
+      serializedVersion: 2
+      Hash: 98c3651f87e3798dd99b27fa1d25bf09
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Skidmarks
+  - hash:
+      serializedVersion: 2
+      Hash: 2cdf0457c74ecd40bd0b2dd33d64c1cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CrashShredder
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.UtilityScripts
+    className: EventSystemSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 675909352d990b55c290435be7773fc4
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: CloseOnKeyOrClick
+  - hash:
+      serializedVersion: 2
+      Hash: 71ecca19a5250b7a2b3b766068cac1d1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: BackgroundTimeOutField
+  - hash:
+      serializedVersion: 2
+      Hash: 6df753c080548b6950d00d94b6a63729
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets._2D
+    className: Camera2DFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 444b00acfe673a1297aa968efc7c0bc1
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: d29f928cecd19b22fdd2e3a756e131c0
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6298a10412e94e11ad85ac6148c9dda1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 6a998c23ae2f127542dff9be7319a7b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CarSelectionExample
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bef4f13469786d3ed6d3de4f94d15a78
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: UserIdField
+  - hash:
+      serializedVersion: 2
+      Hash: ab3af66e72df268ff2de9e04387581c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CustomizerExample
+  - hash:
+      serializedVersion: 2
+      Hash: 45a1e3e0fb2ce91b9b6528378172396d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_EnterExitCharacterUICanvas
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_InfoLabel
+  - hash:
+      serializedVersion: 2
+      Hash: 9b435b63b68b129981f31f3162c35393
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Ball
+    className: Ball
+  - hash:
+      serializedVersion: 2
+      Hash: 5f2bc05abaaf6b2aed65275773a018d6
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer.Utils
+    className: SplinePosition
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: PlayerNameInputField
+  - hash:
+      serializedVersion: 2
+      Hash: 76189544fcf61e781ed0054843b326c7
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c8329368f4c53a1c22a1f789da1867e9
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: RegionListCell
+  - hash:
+      serializedVersion: 2
+      Hash: 906b13a6a9401ea21237bfa1be2b5f8a
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.Utility
+    className: EndlessMovingSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 52827e7af444ede1e783e00150e93252
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: AsteroidsGameManager
+  - hash:
+      serializedVersion: 2
+      Hash: bd13d7191a2587a524c249e9495f2bcc
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 56abb69f06bad7577c0ee4ae0139fe8d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: InputAxisScrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 46c79cffb9455b75de7808241b275c66
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer.Utils
+    className: BezierSpline
+  - hash:
+      serializedVersion: 2
+      Hash: 92c338a19da8c1d2d1ac886be571df4c
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: e6d2a1ce7cb74a3cf17adb9370de15ce
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: PlatformSpecificContent
+  - hash:
+      serializedVersion: 2
+      Hash: 7076552313cc5405cce27134bb16ec41
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8a1839b7ab525779fb84aa04dd43c643
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: 6bd289a775a9676b7d7d880eeedf3646
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit.Forms
+    className: SetRoomCustomPropertyUIForm
+  - hash:
+      serializedVersion: 2
+      Hash: d0f38d9d8b4898fddc05cf5525642bf4
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: OnlineDocButton
+  - hash:
+      serializedVersion: 2
+      Hash: 13c320424e15e88a0527d7477a4188bb
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 451cfd2c51a0abe01b1ff75ad47753d5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 74e9bc5ab54981a5149f5d1806caa8cf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_SceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 46fc7cbbbe19976926adec46e08ad604
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkidTrailAI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Procedural
+    className: ProceduralController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6bd289a775a9676b7d7d880eeedf3646
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: IntInputField
+  - hash:
+      serializedVersion: 2
+      Hash: d4721867d164f25e1e30e0ba0ec0902b
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.UtilityScripts
+    className: TextButtonTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 394cef52e5fd678c5a810df282dbde75
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CustomizationApplier
+  - hash:
+      serializedVersion: 2
+      Hash: c4aa601117030a5618dbf6cf10a8f09b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Cameras
+    className: TargetFieldOfView
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c4d0865ec6fc018ba7063966f49aeab6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_ChangableWheels
+  - hash:
+      serializedVersion: 2
+      Hash: 52f20cef214b0349a26cc1a5454f9c20
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 99459976c7ca8bbb7c787f6b78bae304
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: e3bbb8ee2622f4f564375e9a9bbd132f
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineConfiner2D
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Characters.ThirdPerson
+    className: ThirdPersonUserControl
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ea1569413d805748b7cef2dcb4622c85
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: e7524804acfd558455b2b9d039ac40e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Light
+  - hash:
+      serializedVersion: 2
+      Hash: 71ecca19a5250b7a2b3b766068cac1d1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: NickNameField
+  - hash:
+      serializedVersion: 2
+      Hash: 031be1932a89e568a3462895c0583b84
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: MoveByKeys
+  - hash:
+      serializedVersion: 2
+      Hash: 98be06998c5fc6364f0bb20207f88247
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PhotonStatsGui
+  - hash:
+      serializedVersion: 2
+      Hash: 4ee3c79798efe8cc7e12f6e2bb55b45f
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 37d8e40e9461edd80de8b4ce63cf063c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_Siren
+  - hash:
+      serializedVersion: 2
+      Hash: 28873fe9170abb2910f2c4b88a93bb0f
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4aebfcca57d790bd4c5eeafdfc8bb8db
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CustomizationTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CountOfPlayersOnMasterProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomIsOpenToggle
+  - hash:
+      serializedVersion: 2
+      Hash: c1881397529279acda7547d21ad1e70b
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: ShiftIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 4e3707ba2e38770e35741545ef6683a5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_TruckTrailer
+  - hash:
+      serializedVersion: 2
+      Hash: a674fc6b583a2e97e57682f60960dd8e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_WheelCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 692a2b1df25f6c1c4df8be71d3725bf7
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: ace789461a9e9f39bc210f6186cbbc94
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Cameras
+    className: AutoCam
+  - hash:
+      serializedVersion: 2
+      Hash: 4b5933476ac7d47b2c136849b92b9a2d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplaneUserControl4Axis
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_MobileDrag
+  - hash:
+      serializedVersion: 2
+      Hash: 431b246be1403e41ec9c2692f1ee2de9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_EnterExitSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ecdf59ccb9fea48446a1001b16317c55
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: dec19f7646ac5233b4f47943ed665fdc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Waypoint
+  - hash:
+      serializedVersion: 2
+      Hash: 2b006c27b595e55e112de0e713333574
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: c99d858e732de8faf602ab4b74cb46ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FenceLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Customization
+  - hash:
+      serializedVersion: 2
+      Hash: 3198a0fab9aa06e90a81715774b3cd26
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 6dab76e733cbbbfb5b880dfba265a56f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_EnterExitManager
+  - hash:
+      serializedVersion: 2
+      Hash: e5f11aeefdfa8938dd56d7accfc40fd2
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 4bf113dc067b6f2fb32135b891a68393
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: SimpleActivatorMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 9f4922d53288d4dc03061359e627192c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 892b5093967522535ba980d28ce42084
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: f57d26cc8204de6d938ce0e5df384f5c
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PunCockpit
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomNameProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: DragRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.Demo
+    className: IgnoreUiRaycastWhenInactive
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: ObjectResetter
+  - hash:
+      serializedVersion: 2
+      Hash: fff1a32deae5d332d9da4054ff9bffa2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Characters.ThirdPerson
+    className: AICharacterControl
+  - hash:
+      serializedVersion: 2
+      Hash: 8d6fc2c2a6af0cdcd30acc3331008888
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnJoinedInstantiate
+  - hash:
+      serializedVersion: 2
+      Hash: a5bb0cfc753b42afdcdf7d9d98266cba
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.Demo
+    className: ChatGui
+  - hash:
+      serializedVersion: 2
+      Hash: 39e623be6adfc6df829b2f0316ce08ba
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CustomizationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 53f5d61e781db3744ea6095de64acff6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_EnterExitPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 15dcc8ea33833e8291dfe9428564999b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 365145e176fd681fe220f19546d58e7a
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: RoomListEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Mirror
+  - hash:
+      serializedVersion: 2
+      Hash: 16c8cbd24a32f9d6625615e0e9098073
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 348ed721bf11df54974c23fad6c06ab0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cf74b7925226fa2f960e41cb453924d1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: ScoreHelper
+  - hash:
+      serializedVersion: 2
+      Hash: cbefa39e553188339d54d633e4eb61c7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: ExplosionPhysicsForce
+  - hash:
+      serializedVersion: 2
+      Hash: d164d398ac00ac074c10e535b95e6601
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: TimedObjectActivator
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5ae088b0af4141f22ad0c4ebcb86f663
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarAIControl
+  - hash:
+      serializedVersion: 2
+      Hash: d72617ae86f69a0d9e9315d657f2afca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_FPSController
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ae3a3ecf63bc2f60d3f0dd64a229ab3
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PunCockpitEmbed
+  - hash:
+      serializedVersion: 2
+      Hash: e8459e8c7a67dbaf64a704897273a474
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomPlayerTtlProperty
+  - hash:
+      serializedVersion: 2
+      Hash: eb3a4a6a427dd8936db4328db59136ba
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_TPSController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: UnityStandardAssets.Characters.ThirdPerson.PunDemos
+    className: ThirdPersonUserControl
+  - hash:
+      serializedVersion: 2
+      Hash: ce48d82890ec4d16b02232873a2490e4
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: c1e6d5676be64d5a260453eb347b8165
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 41ac98c9880a6f3758ca69dbaa1e7777
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d5cbbab93884e6e83ef668697fcfbc18
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: ExplosionFireAndDebris
+  - hash:
+      serializedVersion: 2
+      Hash: 2512e6daea8e5db26276df4620db8361
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: Gauge
+  - hash:
+      serializedVersion: 2
+      Hash: ebab34e8ae709e5fc205d97d89619528
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_SuspensionArm
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomAutoCleanupProperty
+  - hash:
+      serializedVersion: 2
+      Hash: b292ab8bb9e2ac6c9c9a080a41c0c7ae
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: SpecularLighting
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo
+    className: WebRpcImplementationExample
+  - hash:
+      serializedVersion: 2
+      Hash: 906ebaf88eb589c0ead98a94ec71e6c2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CinematicCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d4721867d164f25e1e30e0ba0ec0902b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: TextButtonTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 879ee3ca5fe1ce04bb3a833e17afa9f0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 568cbfb963c528d07bf1cbf0db678ef2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Cameras
+    className: LookatTarget
+  - hash:
+      serializedVersion: 2
+      Hash: afe1800287c9574079eab3fea2622416
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: e5bb651a220b8d33d98eec4737960b6a
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnStartDelete
+  - hash:
+      serializedVersion: 2
+      Hash: 6f2331a347cdef798b8d617132d4c491
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 512e2d139bc2c1ba2fab42a0dd7b234d
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: PlayerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71ecca19a5250b7a2b3b766068cac1d1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: GameVersionField
+  - hash:
+      serializedVersion: 2
+      Hash: 6a1ff8b8a2994772e89424337d9f5d0f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_FixedCamera
+  - hash:
+      serializedVersion: 2
+      Hash: ba4d2b90390d7acb4c1de11d6f67d0db
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_PoliceSiren
+  - hash:
+      serializedVersion: 2
+      Hash: 967cb4d006527026be03739b2f5cb2e8
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fc888de200079c3fc348a1b2808b7bd1
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: InputMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: bcdedb1b3a567eb05111be4716618ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: cbba5f06ece0274d1e12e49faf344b30
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: BrakeLight
+  - hash:
+      serializedVersion: 2
+      Hash: 26a0a657b17b05181f92acde9c343c31
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_DashboardColors
+  - hash:
+      serializedVersion: 2
+      Hash: b28f6e0a8d9910601f3824935454ce3e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: TouchPad
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DamageSystemAI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: CullingHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 40ad8ad624f315fffd2ce6763c49b5ed
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c2bc32a0adbaf06ccdb4f32748dafb1f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CustomizationDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 549d891fae60da1f9488f28e95c6d923
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_FOVForCinematicCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ab435ba956cc72d19ee2de806e035c35
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer
+    className: PlayerControl
+  - hash:
+      serializedVersion: 2
+      Hash: ff476ea2910cbc544a47bfb4b1b5c260
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: Launcher
+  - hash:
+      serializedVersion: 2
+      Hash: eb89cc9c55c1361dc02d4fea220cc023
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751d867553f413cde86fe5db0b02780d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8d869b85130d07e627caba518de2ee3c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_SirenManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 34d78539ca5e92daccc46347f30c8a02
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 8af52659741ff17cabfcef143cee6a07
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_FuelStation
+  - hash:
+      serializedVersion: 2
+      Hash: 5ba263ca2d42c88d13798077b553cb30
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 63615cfd51910e193480106eb9ac8a41
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: RegionListView
+  - hash:
+      serializedVersion: 2
+      Hash: d241a53bc5e3fac8445c75752b98aa95
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_Engine
+  - hash:
+      serializedVersion: 2
+      Hash: 6888235d681d4f663b23f8bceb33ccf9
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: Mudguard
+  - hash:
+      serializedVersion: 2
+      Hash: d1dd4a74a82d0cec8cfdd6a90169a18b
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: f91f6028f4432b7f43ae8991d784b3b7
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: DynamicShadowSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a5cf37d656f7bdd23833e8bfca167636
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_Canvas_Modification
+  - hash:
+      serializedVersion: 2
+      Hash: d568b93f515ea8ccae14fcd727e9ad0f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Cameras
+    className: ProtectCameraFromWallClip
+  - hash:
+      serializedVersion: 2
+      Hash: 1f7fe5e853c13097b0e0fbc072173613
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1dfd5e4c04b3eb6fa0c481e2725cde35
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: ForceFeedbackMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: dfeef9be69ad1e952169d385c2211809
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 38987339eef692d14f76226bdb57e569
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer.Utils
+    className: BezierCurve
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: StandaloneInputModuleModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 19995c8f57a061f914cfd824cff052b1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: LayoutElementMatchSize
+  - hash:
+      serializedVersion: 2
+      Hash: d1093f6e38a35f91ed7604a93f4917a3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: AutoMoveAndRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 37d8e40e9461edd80de8b4ce63cf063c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_Spoiler
+  - hash:
+      serializedVersion: 2
+      Hash: befe82aa81b7a81fdf6b5a22e2ea020d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_Wheel
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomEmptyRoomTtlProperty
+  - hash:
+      serializedVersion: 2
+      Hash: a1df8e53b11f4dea858eed8966c6b1a1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer.Utils
+    className: SplineWalker
+  - hash:
+      serializedVersion: 2
+      Hash: 4b0940abcee0165b51af860ec5afc1a8
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ec79593dd1992ccfaa067ca67fdfb3d9
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 83de97b7f40b3b325afd73e83344e515
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_Upgrade
+  - hash:
+      serializedVersion: 2
+      Hash: 9a6a8a8700a980f1204bd6b98682be0b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Records
+  - hash:
+      serializedVersion: 2
+      Hash: 45222be4a8ed8413b10f3f0b6d4d44fe
+    assemblyName: PhotonRealtime
+    namespaceName: Photon.Realtime
+    className: SupportLogger
+  - hash:
+      serializedVersion: 2
+      Hash: 08c6cec0d60845d71fc5e6a25f88c52f
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: bd3b93eecbd0fe18d9938dc47570fa20
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: d426c374a83484c2d48edc9fd45be8cf
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: Dashboard
+  - hash:
+      serializedVersion: 2
+      Hash: 0223aec4a786d4ffe1bac74b49058303
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 2fb2a73cdd1592bf5a17b03d14a7cb00
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Recorder
+  - hash:
+      serializedVersion: 2
+      Hash: 71ecca19a5250b7a2b3b766068cac1d1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: SendRateOnSerializeField
+  - hash:
+      serializedVersion: 2
+      Hash: e3f9c68a6cca985fd4cc42aaf6cd3b92
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 53f723fc630153e04391e5deadd45154
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: Asteroid
+  - hash:
+      serializedVersion: 2
+      Hash: 53c46bce503f838890a138bb8aac7598
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomExpectedUsersProperty
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 635906f3b26e2adc37ab34e286ee64da
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets._2D
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: fc9a84ff51342892053d864716e6fb39
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Camera
+  - hash:
+      serializedVersion: 2
+      Hash: be463dc1dc207ab0f2841ed46e1275dc
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Ball
+    className: BallUserControl
+  - hash:
+      serializedVersion: 2
+      Hash: f0c5d7926fb18f082520458fc848ecd5
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit.Forms
+    className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: e71ffc7f3ba5e28c867625d19041f552
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: Explosive
+  - hash:
+      serializedVersion: 2
+      Hash: 49327a63113aae4b340ec7b88509b860
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_DemoMaterials
+  - hash:
+      serializedVersion: 2
+      Hash: 454a19bfd1b2b515e0d9e0dc4bb2c965
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Hub
+    className: DemoHubManager
+  - hash:
+      serializedVersion: 2
+      Hash: a89cac90d109fe2c6174c0c7c489e783
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: RoomListCell
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_SkidmarksManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EngineAudioAI
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2684abd00455f43403f8a55609cfa2
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonRigidbody2DView
+  - hash:
+      serializedVersion: 2
+      Hash: 34fa63a30926bcf55d7323dae76be890
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: b2877363f67bffc91ca5941411f95244
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_MobileButtons
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: OfflineModeProperty
+  - hash:
+      serializedVersion: 2
+      Hash: a844a75b6b5e02ab25df8b99ae74ab4d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: SmokeParticles
+  - hash:
+      serializedVersion: 2
+      Hash: 42fae023557d31b53c4d38a618e2f9b1
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonView
+  - hash:
+      serializedVersion: 2
+      Hash: 0249933f35dcc970b31eaae0159aebf9
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: ButtonInsideScrollList
+  - hash:
+      serializedVersion: 2
+      Hash: d00c42c09ccd361a93a8c003a247a04d
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: PlayerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 59f3faea5b9bb04c18d12d10a3999193
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_Paint
+  - hash:
+      serializedVersion: 2
+      Hash: 38c7fc97a35ffe3ea650b058b7248169
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: DocLinkButton
+  - hash:
+      serializedVersion: 2
+      Hash: da6ea810c2defc294bb6c29c2ac4697f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Exhaust
+  - hash:
+      serializedVersion: 2
+      Hash: 5b78b2da7e2837c27ff3a35a8ea28944
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_DashboardObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_UIInteractionButton
+  - hash:
+      serializedVersion: 2
+      Hash: 1b8d684b3a171336646dec166f3992bb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0cadf67970140b3a7997770202c43c70
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_WheelManager
+  - hash:
+      serializedVersion: 2
+      Hash: fdf429ac5e8ee7a35030a582d98f27a5
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: Spaceship
+  - hash:
+      serializedVersion: 2
+      Hash: 3b90560173d9a44238963a60657c9095
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnyCarAI
+  - hash:
+      serializedVersion: 2
+      Hash: f4f39b64f410b0cd98b49df4bad0eb7e
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 04bf8dba8e867e9c3c936355c18443e4
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: c92e03126f82226c2e517b0c562a3094
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_TrailerAttachPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 64a75a5e0b3f10a3005773faa3311034
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: MultiToggle
+  - hash:
+      serializedVersion: 2
+      Hash: a9a976a486704acb866cde59354d0a9f
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: Water
+  - hash:
+      serializedVersion: 2
+      Hash: ccd9f5b40b502f10a7c878a659d814fa
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: ShowValueFromSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 60c5042cf6136779f3e6e4a69afd6564
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Characters.FirstPerson
+    className: HeadBob
+  - hash:
+      serializedVersion: 2
+      Hash: 6af4944dff81d785536c49938079c332
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PunTurnManager
+  - hash:
+      serializedVersion: 2
+      Hash: 72bae61e460bce319285fe960d680fad
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: Hose
+  - hash:
+      serializedVersion: 2
+      Hash: c802c269607102e26cd56eea5d36aae8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MeshCollisionScriptAI
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomIsVisibleProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 8cdf708746b9450c533c20f68785c932
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonTransformViewClassic
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf8e7513a6a15e836c34b697fcf2ccd7
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnEscapeQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f2a98ff44eae2937f49b66c5ac80892b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a6ef14cd060d315bc5e0e0f5f278887e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_InitialSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 889b09bf78cde2f22eea45679755c271
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: PlayerAnimatorManager
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomMasterClientIdProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PunTeams
+  - hash:
+      serializedVersion: 2
+      Hash: 562be403ed296913ab465b372933294c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_ColorPickerBySliders
+  - hash:
+      serializedVersion: 2
+      Hash: f21ecf76b72dbd2e79e578cb85e8fe3f
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PropertyCell
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 5675d292cba9f9b23b7466855a47c110
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets._2D
+    className: PlatformerCharacter2D
+  - hash:
+      serializedVersion: 2
+      Hash: e41d0fc3471a66f8778435a351d67a65
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Caliper
+  - hash:
+      serializedVersion: 2
+      Hash: 4a8501c55f6ed3ebb98f579fecb3353a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WaypointsPath
+  - hash:
+      serializedVersion: 2
+      Hash: 989d3dbe5a76c8db0588533e2e692849
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Teleporter
+  - hash:
+      serializedVersion: 2
+      Hash: f787ebc9052e685e422da5b37eac6c4b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 87deda3a4a4c80349968408368d9bea9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_AICarController
+  - hash:
+      serializedVersion: 2
+      Hash: b00e3e03ddb713bdf6906e5880d95bfe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarAIWaipointTracker
+  - hash:
+      serializedVersion: 2
+      Hash: e2c2a73e4e88ea4ee4732b4dbf900b69
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CrashHammer
+  - hash:
+      serializedVersion: 2
+      Hash: 4dad61767dc71a1ee60233c88385949e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: WaypointProgressTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 21458b64fdf3b1c35574c2a0e82b859d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 9f58673d3d54ba8849217a9b69b9c946
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: LobbyMainPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: AlphaButtonClickMask
+  - hash:
+      serializedVersion: 2
+      Hash: cff3792dbde720eec192615033ef49d1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_PaintManager
+  - hash:
+      serializedVersion: 2
+      Hash: f6db34ec3c3d6330db9685fc47bcbbd5
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Procedural
+    className: Block
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e0ec9243c28152158609fc2512709f63
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_DetachablePart
+  - hash:
+      serializedVersion: 2
+      Hash: 71ecca19a5250b7a2b3b766068cac1d1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: SendRateField
+  - hash:
+      serializedVersion: 2
+      Hash: 0853a9cfe5cc2b0f4d6ca464f2d8e0b6
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PhotonTeamsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebb41db9ce1af8868310e4bdeda5afc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Cameras
+    className: HandHeldCam
+  - hash:
+      serializedVersion: 2
+      Hash: 14e87c3146b5163802c6593a9af50133
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PlayerNumbering
+  - hash:
+      serializedVersion: 2
+      Hash: 41330c35f3322dc3b98ab9a150b6168b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CharacterController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomIsVisibleToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 684b06ef3de8cea5fbf767704db4f3e4
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: WaterBasic
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: d7f033cc8df1064eacf2ab2fec1e41d0
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: f6831ac80ec81c5d5b370c0ed0fee997
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4aa82c77b36a2a490053e8f5f2627f4b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: SkidTrail
+  - hash:
+      serializedVersion: 2
+      Hash: fe207d476e0bac5eafee08a0c3bd63b0
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: VehicleSetupDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: d0466941b4fb3aa50ad496a0f6540df1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: BoolInputField
+  - hash:
+      serializedVersion: 2
+      Hash: d7d9dc0c3b3db421af6fcfe95aad76cd
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8c152bc050cdac5e819cf54859c59744
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: MenuOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: f5b993700bbd9a807fb3e7ad92ac9dbe
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: f6f16d494a5c09629694f2d58d55320f
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: GearModeSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 2a8480c972364620f3df1ecf55ba3c3a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_ShadowRotConst
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab22b4beca4a9c4d6f5b1e31b7bec32
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplaneAudio
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomMaxPlayersProperty
+  - hash:
+      serializedVersion: 2
+      Hash: abd253676f06f6df52dd70869501a312
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: LandingGear
+  - hash:
+      serializedVersion: 2
+      Hash: a9085893760a351bcabd149864236c19
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CameraCarSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 1acffdc47de1ca014dae3d384c3d1086
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: bb1ceaa969c7a364b8c20c5b84add7d9
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: CloseOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 681d4995cff8ddcab7356f048b73094a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Characters.ThirdPerson
+    className: ThirdPersonCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 91ae2799bb5c89861af5887bc01fae29
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_SpeedLimiter
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 94f8303fca6ba25383fc62595e324b7b
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 1ed2c6278a809fcb97c4b0e845bbecc5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: c9c2b8bc267c053b1784ec4dc48b7843
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnPointerOverTooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: Displace
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 33b979823c1d34cd22e85b937ec648ff
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 98669d377b7baa132dee84b1062ccb39
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_SetLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: c97ac7ef7108817b198a74b903ef3b97
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnClickInstantiate
+  - hash:
+      serializedVersion: 2
+      Hash: dd8e6e9dd2e42b6dce5c6af27a21ade7
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomPlayerCountProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0286ed84936a6e3c4dba049ae21a7b1c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a4bb6995e13e152b785affd55f42003e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplaneControlSurfaceAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: c9e03cef093a874c824682673d0865a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_APIExample
+  - hash:
+      serializedVersion: 2
+      Hash: 42c1f2863c2747085bbd7802c039a08d
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PlayerListView
+  - hash:
+      serializedVersion: 2
+      Hash: 142264d9d6b0842e37d4aad2e8ff56d0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 756aaa590a87695718f5d65d508f1931
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: GameVersionProperty
+  - hash:
+      serializedVersion: 2
+      Hash: e7418c5b8fd67b207e7c86a7d9f14487
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Characters.FirstPerson
+    className: FirstPersonController
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 59f3faea5b9bb04c18d12d10a3999193
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_Spoiler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0df98f6c1140760c460067567b8489ae
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: Suspension
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_RepairStation
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fcead85cbd2dde35d06cb401e4d50847
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonAnimatorView
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 223d576f01969c57c4a9dc877fc55fc1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_EnterExitVehicle
+  - hash:
+      serializedVersion: 2
+      Hash: 200207f2d5ea252502206e81ef4215b1
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 41ac98c9880a6f3758ca69dbaa1e7777
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9444fe7e0cbb80dd6dd99d6484bd383c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UISteeringWheelController
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9813ac182893af3277e98df765a916
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: AutoMobileShaderSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 964e8513a3c7addf17decf870cc43f23
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarUserControl
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: EventSystemSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: EventSystemChecker
+  - hash:
+      serializedVersion: 2
+      Hash: b2bb97838c61bb1184638118fe1b9a29
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: FriendListCell
+  - hash:
+      serializedVersion: 2
+      Hash: b46ebe2d180071684006343f56bca06a
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Realtime.Demo
+    className: ConnectAndJoinRandomLb
+  - hash:
+      serializedVersion: 2
+      Hash: c79b5fe597994b62169b6278b7655916
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: PlayerListEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c13e758c41d681ed62a32247dc9da56c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: BestRegionInPrefsProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 268e38d830fc5de8691c38e2a29feb84
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Cameras
+    className: FreeLookCam
+  - hash:
+      serializedVersion: 2
+      Hash: 48a3515f4b6da46c63b268dc5abd81fb
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PropertyListenerBase
+  - hash:
+      serializedVersion: 2
+      Hash: bc4e6c58ca8108fe5c80b10efa638c79
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.Utility
+    className: BankedPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: 8fa8116aae45db59681009d88521705c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: AfterburnerPhysicsForce
+  - hash:
+      serializedVersion: 2
+      Hash: 22c0b4d7014dd66c273c16f01d4ed0f5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: PlanarReflection
+  - hash:
+      serializedVersion: 2
+      Hash: b988ebc2017db511b857b7bd0f6e4ec6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_Handling
+  - hash:
+      serializedVersion: 2
+      Hash: 4716973d1fa3106765c98b08f5717e4b
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Core
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 46d2d47ed292c11d4e3eeede49077bf2
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: IgnitionKey
+  - hash:
+      serializedVersion: 2
+      Hash: a856a28584401499ab597024ac5d7d99
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ab12af6be80beeba18cf30c49952ac6b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UIDashboardButton
+  - hash:
+      serializedVersion: 2
+      Hash: cb4a2ab7b9392154cdfd9fc0598efd5c
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: StatesGui
+  - hash:
+      serializedVersion: 2
+      Hash: f60085eba621f0023ea84554fae25344
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 8e4448ba75aab0ea490f4d9ebba17758
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PhotonLagSimulationGui
+  - hash:
+      serializedVersion: 2
+      Hash: 52fbe531ef70cd17a2551280a8cdb3a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_AIWaypointsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d8593fa9c44dceeb2988c1765960c410
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: DeviceDebugInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 65553f485abae944287411abb380b617
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_LOD
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_UpgradeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CountOfPlayersInRoomProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 2d158309b8772929c83d52e7f8f9416d
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9973002832a0286aec49daccad26ad3a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarAIInputs
+  - hash:
+      serializedVersion: 2
+      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 6f757bd6fa094553aa275d887b44f9c2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_AIO
+  - hash:
+      serializedVersion: 2
+      Hash: f56e959427d348691d86a47aeaed2d79
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: TimedObjectDestructor
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c4bf95291b1caeabe7c22fd334eb38e1
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit.Forms
+    className: ConnectToRegionUIForm
+  - hash:
+      serializedVersion: 2
+      Hash: f9004df9c1da7a82ca183cf13c16a5c4
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PointedAtGameObjectInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c854af4d032d61c35c7ce6a9adacdf05
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 4b30a3f2a409caf1be1b296fcec5d9ed
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: AidsPanel
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: ServerProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 579b80566db1c7031a2faa73bc0eb9e8
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: FollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ForcedReset
+  - hash:
+      serializedVersion: 2
+      Hash: a7a975dc7dbeb089621e25a6b2627c29
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit.Forms
+    className: CreateRoomUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: 5229e132142fc9e0a49b7db3a1856d2f
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Procedural
+    className: WorldGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 5f7149b2e25400f88ac2c1541671315c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: AxisTouchButton
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e010a45e460e01180ccb66f29f9483d0
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: CameraWork
+  - hash:
+      serializedVersion: 2
+      Hash: 9aad0f1752c3a50c6898236598d924c2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: WheelEffects
+  - hash:
+      serializedVersion: 2
+      Hash: 169aeaea1e12958ee75db9e20f0bec00
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarSelfRighting
+  - hash:
+      serializedVersion: 2
+      Hash: 4ad9ba71b84179925b16c3040bc9cb08
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: ButtonHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CloudRegionProperty
+  - hash:
+      serializedVersion: 2
+      Hash: be8b55fc8a992741c6269f20cbc719b1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 8744ea14fccb073ad68cc4e34e92376b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_CrashPress
+  - hash:
+      serializedVersion: 2
+      Hash: f87d3bf620c1b91c31e850050425a6d3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Characters.FirstPerson
+    className: RigidbodyFirstPersonController
+  - hash:
+      serializedVersion: 2
+      Hash: 1f7fe5e853c13097b0e0fbc072173613
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 89406b2a83e5d179b0705a64913d68f7
+    assemblyName: Cinemachine
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b9d7c32e565787aa3931f49307c60103
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ec9349ed75ec2e46ccf0a23fc70a9ac7
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: ToggleExpand
+  - hash:
+      serializedVersion: 2
+      Hash: 3038996a406843c75840a9bb9dc1d72b
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 507260a366d9c9574a5338d3fa138dc6
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer
+    className: SlotLanes
+  - hash:
+      serializedVersion: 2
+      Hash: d6f83bb917df45d91ae1716a0b084fa3
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: PunPlayerScores
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Procedural
+    className: Cluster
+  - hash:
+      serializedVersion: 2
+      Hash: 2adfa4223160984964690143c3094989
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.Demo
+    className: NamePickGui
+  - hash:
+      serializedVersion: 2
+      Hash: 809afa3c51d9ab4debd5d23d5fb2cb7f
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: InputConfigDialog
+  - hash:
+      serializedVersion: 2
+      Hash: f773edfd56bf218a4d82e86a68025bd9
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: RoomListView
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Spawner
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets._2D
+    className: Platformer2DUserControl
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: FireLight
+  - hash:
+      serializedVersion: 2
+      Hash: 799d45d33280e2f18a03d07a9c1deff1
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: WaterBase
+  - hash:
+      serializedVersion: 2
+      Hash: 01a2414cd1689eeab6d20dcb0449a1a6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_DemoVehicles
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: AutoSyncSceneToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 90474884c7db4ebcdbd22848bc5f641d
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: CullArea
+  - hash:
+      serializedVersion: 2
+      Hash: 51b665f895d02f3041733edcefba0ee5
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: WaterHoseParticles
+  - hash:
+      serializedVersion: 2
+      Hash: e1b25d6f2cf1bdbe674134afad6c2d9d
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.UtilityScripts
+    className: TextToggleIsOnTransition
+  - hash:
+      serializedVersion: 2
+      Hash: ebaf7144edff218592123ae94dbc546f
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: ServerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 0e28d8006f33a4c6bf3ef39e20820f9c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: bb5a433417cffe9e80384328431ba5c8
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: PlayerOverviewPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CurrentRoomIsOpenProperty
+  - hash:
+      serializedVersion: 2
+      Hash: ea1569413d805748b7cef2dcb4622c85
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 6f67dd406ddfc18c9b3f8a90725c6266
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_MobileUIDrag
+  - hash:
+      serializedVersion: 2
+      Hash: 7ed091d2a4ff0fe58d1fab8bdfb53745
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.PunBasics
+    className: LoaderAnime
+  - hash:
+      serializedVersion: 2
+      Hash: b18151310f999106767addd7177d1a99
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Water
+    className: GerstnerDisplace
+  - hash:
+      serializedVersion: 2
+      Hash: 998a5af609481c2533582abcab32e895
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 34096a327d779b7c96a3e390f3559143
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 2bd8c519be1169f620572879a5e0d390
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b8737e493e3f2becb5e779dc7e2fe426
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6bd289a775a9676b7d7d880eeedf3646
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit.Forms
+    className: LoadLevelUIForm
+  - hash:
+      serializedVersion: 2
+      Hash: 0a31b59c7e9de30f8e19cc11f48ae4a9
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ef747b8084cec06c92cd0a0b28ee187
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: SmoothSyncMovement
+  - hash:
+      serializedVersion: 2
+      Hash: a5d8749c4d949162c5aa7e2426c5af29
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ba53e0d82b41ee62b70b144104e56169
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: SimpleMouseRotator
+  - hash:
+      serializedVersion: 2
+      Hash: c3412de720c0d9bc3314662cb2bf8e33
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_DashboardInputs
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Procedural
+    className: IngameControlPanel
+  - hash:
+      serializedVersion: 2
+      Hash: a1c0a53e29d6b590ef3f25b93974524e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BCG_Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: a49a017b805bc6b5963903daa5333d5d
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 31a57aca7914921a77172cb36981121a
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: InfosPanelPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_HoodCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d1bebf506aaefa3c18f6267afd8b10ef
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: ConfigDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bbd18fc68ceeefb10270c51811911485
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 36cccf8a4f2a18f055abdae0f8c713c3
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplaneAiControl
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Hub
+    className: ToDemoHubButton
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WheelsFXAI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_WheelCamera
+  - hash:
+      serializedVersion: 2
+      Hash: ea05c1d4ab3e65a67203b5a13d701293
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UIDashboardDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: a1c0a53e29d6b590ef3f25b93974524e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UIJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 4f2e673c02bc079622ce2cdb42228085
+    assemblyName: PhotonUnityNetworking
+    namespaceName: Photon.Pun
+    className: PhotonTransformView
+  - hash:
+      serializedVersion: 2
+      Hash: 756aaa590a87695718f5d65d508f1931
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: AppVersionProperty
+  - hash:
+      serializedVersion: 2
+      Hash: dab58ae0607d5f5866dab76650e983fe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UISliderTextReader
+  - hash:
+      serializedVersion: 2
+      Hash: 76924ef2a4f5b75097f5711b4d6bad7f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_FeedVehicleExample
+  - hash:
+      serializedVersion: 2
+      Hash: 0aa202e0cb25aba547e426435f7d6914
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.Demo
+    className: ChatAppIdCheckerUI
+  - hash:
+      serializedVersion: 2
+      Hash: afd7b866290948facd03d6e7efb2a139
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_GroundMaterials
+  - hash:
+      serializedVersion: 2
+      Hash: 594a611b6934d55cb7f3799bf78489ff
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.Demo
+    className: ChannelSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: HideOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 7913b1e5df9824d479ff40c0fa90e0f5
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.Utility
+    className: CaptureScreenshot
+  - hash:
+      serializedVersion: 2
+      Hash: 683e6286c7013d254f06cc059f478939
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 433efcca0b455b7fd617c302c8c9012a
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 99669a41b4c479d588cb2acc4f4e0de0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: ParticleSystemMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_Siren
+  - hash:
+      serializedVersion: 2
+      Hash: 64f2e6c06df2696538a5a41c32c49389
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: TabViewManager
+  - hash:
+      serializedVersion: 2
+      Hash: 949b17f0af4746d06259e2119a31d922
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarAudio
+  - hash:
+      serializedVersion: 2
+      Hash: b1705171cbdd1470c9b595afff9ef15e
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: e1d6f84cb339a48d45e99c5d8f3ac704
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnClickRpc
+  - hash:
+      serializedVersion: 2
+      Hash: fa7c62595553866a25a1f687b1914fd2
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: bcd0aa30e639c9230560ff50ef3cec29
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: FriendListView
+  - hash:
+      serializedVersion: 2
+      Hash: ae3ba08d7bc0df14c9b2e76ec1ad5309
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UI_Color
+  - hash:
+      serializedVersion: 2
+      Hash: 4860959a76696a8ee38139d4001b89ec
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: WaypointCircuit
+  - hash:
+      serializedVersion: 2
+      Hash: d01968eb36cc75ae0f26880de18b1e65
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: HoverHandler
+  - hash:
+      serializedVersion: 2
+      Hash: df70afff09fcc26f54fe08084e6042ec
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: PingProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 8a292af3cbceac3bc4dcdd5825c0b53a
+    assemblyName: PhotonUnityNetworking.Utilities
+    namespaceName: Photon.Pun.UtilityScripts
+    className: OnClickDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 99669a41b4c479d588cb2acc4f4e0de0
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Effects
+    className: ExtinguishableParticleSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 37d0c91507bc0ff9bf7f595b3820b630
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_ShowroomCamera
+  - hash:
+      serializedVersion: 2
+      Hash: cddf28eddeff709815f9aadbb8aab341
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_Telemetry
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7175718365ee15cdc607c945d588610a
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Asteroids
+    className: LobbyTopPanel
+  - hash:
+      serializedVersion: 2
+      Hash: fbb610f26ad3eb353953ad47e919401c
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 973b45f6da831c2794adf9d17af77d72
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 37f839c4c7ae93f2ad6f8a3cd9c3e86e
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplanePropellerAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 39cbd1d49b46dd4eee2ac9fdf5752425
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: AeroplaneController
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: CountOfPlayersProperty
+  - hash:
+      serializedVersion: 2
+      Hash: a39512feab9af0905d0adde186f62926
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Vehicles.Aeroplane
+    className: JetParticleEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 82d8407b5ac28ebd76374d0711c907a5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_AIBrakeZone
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a4d905db69ca7f45f45458ae380fb66f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: IsConnectedProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 8b76a3f387e2f12bd97f81fbc32d9e95
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_AIBrakeZonesContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c322ccf34da8826890ca2fe87633da71
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_Brake
+  - hash:
+      serializedVersion: 2
+      Hash: ec79593dd1992ccfaa067ca67fdfb3d9
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: a85cb0b5f8c286c6b7000927b06d765b
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics
+    className: PauseVehicle
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CompetitiveDrivingCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 069df2bc9319218056f99d9ab380b653
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowPlayerAI
+  - hash:
+      serializedVersion: 2
+      Hash: 1d3741cbe0fa5f62ccb783f4a1b658a9
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.SlotRacer.Utils
+    className: Line
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4194b0b53f0f5ac60e8f2e705b66c99d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_UIController
+  - hash:
+      serializedVersion: 2
+      Hash: e0c4d3f36469ec956968525cadaee518
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Cinemachine
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: e55b3a3c764aa96ace35144e7da6a74a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: SmoothFollow
+  - hash:
+      serializedVersion: 2
+      Hash: eae5bf9a2e179bd4d5e3860f17f89f02
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: GenericMenu
+  - hash:
+      serializedVersion: 2
+      Hash: e021fae07b7c73933e18725f76623e21
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 569b4e13da55c30bcba836accfefc3f3
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: TelemetryChartToolbar
+  - hash:
+      serializedVersion: 2
+      Hash: c7b9385de9fd55499d563ac8783bbda2
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: Photon.Pun.Demo.Cockpit
+    className: IsConnectedAndReadyProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 681d4995cff8ddcab7356f048b73094a
+    assemblyName: PhotonUnityNetworking.Demos
+    namespaceName: UnityStandardAssets.Characters.ThirdPerson.PunDemos
+    className: ThirdPersonCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: be140ea01a11255b651c097661ac55b1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d85d18c4d95c9dd9e4b260f8c53ef1d6
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.Demo
+    className: FriendItem
+  - hash:
+      serializedVersion: 2
+      Hash: b6a4f2f780c738f1e53ee37b6555f1c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RCC_VehicleUpgrade_SpoilerManager
+  - hash:
+      serializedVersion: 2
+      Hash: ca3391484e355911294242f24e4fa8ac
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.Utility
+    className: ActivateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: UnityStandardAssets.CrossPlatformInput
+    className: MobileControlRig
+  - hash:
+      serializedVersion: 2
+      Hash: 875b8f4a7b789fb2e450e1fb8b92e9c4
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.UI
+    className: EscapeDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: Photon.Chat.UtilityScripts
+    className: OnStartDelete
+  - hash:
+      serializedVersion: 2
+      Hash: c1de921de7d12b90b37433a6e77e9db8
+    assemblyName: Assembly-CSharp
+    namespaceName: VehiclePhysics.Utility
+    className: MovableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: 
+    className: ERSurfaceScript
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODOQODCQOD
+  - hash:
+      serializedVersion: 2
+      Hash: 225bac21492ae77b1b826a0f1d4b7b4c
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERCrossings
+  - hash:
+      serializedVersion: 2
+      Hash: 2a8ac8bec767c0334a5d39328384b48f
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERCrossingPrefabs
+  - hash:
+      serializedVersion: 2
+      Hash: bc7eda61f48e3c0babde25457a00f78d
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: EasyRoads3DTerrainIDv3
+  - hash:
+      serializedVersion: 2
+      Hash: a06958ac80400550e20e2badadd74c05
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERBend
+  - hash:
+      serializedVersion: 2
+      Hash: 56e633dbf53db4745fa28c11702b4049
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERRoundabouts
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCDQQDOCOD
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQOOCDOOQO
+  - hash:
+      serializedVersion: 2
+      Hash: a1dabf2d29ca6aa37f1a86e5eb0dd7d5
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERModularRoad
+  - hash:
+      serializedVersion: 2
+      Hash: cab7212f192cc971ff8418eb8d1c942a
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERTrafficPost
+  - hash:
+      serializedVersion: 2
+      Hash: 7a20305622cf9123d118c8d89220cced
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: SideObject
+  - hash:
+      serializedVersion: 2
+      Hash: 14b0d4692b37e1490931aa96932b99cb
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERModularBase
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODQDDCCCQD
+  - hash:
+      serializedVersion: 2
+      Hash: 3535c3f1e3bd1942eb18f0406da79243
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERLocalGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 41e6580a3b90e7797196357bee88f9f4
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERDecal
+  - hash:
+      serializedVersion: 2
+      Hash: 72cf61d8a0377c8ee03e6f2afa89d1c3
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERCamNodes
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSideWalkVecs
+  - hash:
+      serializedVersion: 2
+      Hash: b59c16bae68abb19c18a5c64bbb72adf
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSideWalkInstanceScript
+  - hash:
+      serializedVersion: 2
+      Hash: 1164acd097bd321b69fad501d0dc40e8
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebfef165b0b148b0460a432cf8e4d61
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERIConnector
+  - hash:
+      serializedVersion: 2
+      Hash: 87d4d990a8dc11e6807c37ce14f5b17b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSideObjectLog
+  - hash:
+      serializedVersion: 2
+      Hash: 47f4f925541030d4118122a403bcceee
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSORoadExt
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODOCQOCQCO
+  - hash:
+      serializedVersion: 2
+      Hash: da4ea2ab7a121b1075c98c8304f0dac2
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: SelectedObject
+  - hash:
+      serializedVersion: 2
+      Hash: cae0cc56b5164c3fc554401229f7f117
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSOMarkerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQOOCDOOQOExt
+  - hash:
+      serializedVersion: 2
+      Hash: 1da027fa71f638d4a26d474ac00b7df0
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSideObjectSection
+  - hash:
+      serializedVersion: 2
+      Hash: 88f3feb5ab0f3cbc9a27faee895c5c01
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERSideObjectInstance
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERConnectionParent
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQQDDDQODD
+  - hash:
+      serializedVersion: 2
+      Hash: ba9df06cd53c2e79b25c34d7bc1b647d
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERCrossingMainRoad
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OOOQDDQQDC
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQCODQCCQD
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODDDOOQCQQ
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: QDDDQODDQDQDQDD
+  - hash:
+      serializedVersion: 2
+      Hash: 9b9029cd7ea8df71cc70ec1d91f638dc
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERMarkerExt
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODODOQDOOD
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCDDDCCQCQ
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODQOOQOCQO
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODDCQCOOCC
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OCQQDCDOQC
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQDCCCCQDQ
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQCODQCQCD
+  - hash:
+      serializedVersion: 2
+      Hash: 25a728300c30bef38573cfca05e1b896
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OOCDOCOQOC
+  - hash:
+      serializedVersion: 2
+      Hash: dda2f083787af9da3eac6bc894ac5fba
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERMarkerSnap
+  - hash:
+      serializedVersion: 2
+      Hash: e7f55fe1550109a298efff47f5fce7ac
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERMeshUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQQCDQOCDQ
+  - hash:
+      serializedVersion: 2
+      Hash: 5b6b4319d763ace5e952ad4b4d362962
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERTerrain
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: QDQDOOQQOOQDD
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODQQOOCQCC
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODOCOQQQDC
+  - hash:
+      serializedVersion: 2
+      Hash: ebc1250b12942a09ed00925649315a8a
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERPrefab
+  - hash:
+      serializedVersion: 2
+      Hash: 481620436447b712e6583aecf4266b05
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERPrefabInstance
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERRoadNetworkObject
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERRoundaboutsFunctions
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQCOCDQCCC
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ERTSidewalkTriangulation
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: ODDDCCQQQD
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: EasyRoads3Dv3.dll
+    namespaceName: EasyRoads3Dv3
+    className: OQDQODQQCC
+  - hash:
+      serializedVersion: 2
+      Hash: 28a22475ed22ee3c05327594050b7bce
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 181b7dae7b74153120a0b792c36291ba
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPCameraTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 6625a0c40856a58201a26486c9a6853f
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPAeroSurface
+  - hash:
+      serializedVersion: 2
+      Hash: b9d876f5b8274169327824cbb8baa4e1
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPAntiRollBar
+  - hash:
+      serializedVersion: 2
+      Hash: fb50036b7b71fc17a7e1b3415390d406
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPRollingFriction
+  - hash:
+      serializedVersion: 2
+      Hash: e1698d48d4daebb99e2c868f72b198b2
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPAudio
+  - hash:
+      serializedVersion: 2
+      Hash: ad46add35c09ae6954bb84aa99f247b6
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPAudioExtras
+  - hash:
+      serializedVersion: 2
+      Hash: f3d764c72f52c85484e77291d88f6d92
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPVisualEffects
+  - hash:
+      serializedVersion: 2
+      Hash: 948ef161ab86b24ed42ac1886dcdb955
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPRandomInput
+  - hash:
+      serializedVersion: 2
+      Hash: 1d6ec77181b6485a4c33ce586a9d0673
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPStandardInput
+  - hash:
+      serializedVersion: 2
+      Hash: 6c37b90ff162fff45116ed90f7925446
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPForceCones
+  - hash:
+      serializedVersion: 2
+      Hash: 28736b69806b7f2d30563e7ee25c2aa8
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPTelemetry
+  - hash:
+      serializedVersion: 2
+      Hash: 6fb88f2be9a11bda30af4d5ba01459c5
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPResetVehicle
+  - hash:
+      serializedVersion: 2
+      Hash: 2daafc8d089e3df72ad2038ea2e35256
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPVehicleController
+  - hash:
+      serializedVersion: 2
+      Hash: c3027d3decaaddaae177fe7a1a895ae1
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPVehicleToolkit
+  - hash:
+      serializedVersion: 2
+      Hash: 14706471617f403dc9b64ecd106dd600
+    assemblyName: VehiclePhysics.dll
+    namespaceName: VehiclePhysics
+    className: VPWheelCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 019afdfb6b38896c915cde743cb2ce17
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: ApplicationCursor
+  - hash:
+      serializedVersion: 2
+      Hash: ab7261d9598f6b53f4985ef4c9a5b53b
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: ApplicationQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 6e410ef785dbf038122d0556d76d5463
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: CameraFovController
+  - hash:
+      serializedVersion: 2
+      Hash: 2b9aa2969c009d3b2c41fcd198f48b93
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: CameraFovInput
+  - hash:
+      serializedVersion: 2
+      Hash: 27d54788fb9225d49c0f289e02c11cff
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: CameraShift
+  - hash:
+      serializedVersion: 2
+      Hash: 418cc5a330855593cf7cb70427876619
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: DebugBreak
+  - hash:
+      serializedVersion: 2
+      Hash: 2f81b35a568a572ddc841575e0aa1691
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: DebugMeasureDistance
+  - hash:
+      serializedVersion: 2
+      Hash: d61c546e68c5b151446ea036754c3b9b
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: SceneTools
+  - hash:
+      serializedVersion: 2
+      Hash: 2b247847e6948d792e632aac8b1beffc
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: LightGammaCorrection
+  - hash:
+      serializedVersion: 2
+      Hash: 48d240d00645a8b363ebd05e967e1857
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: SceneReload
+  - hash:
+      serializedVersion: 2
+      Hash: fd26f0981dc65fef1b56bd2d04048995
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: ScreenBug
+  - hash:
+      serializedVersion: 2
+      Hash: 802b077b4ee920205cb8d771ffbf8a7d
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: ScreenNotes
+  - hash:
+      serializedVersion: 2
+      Hash: 58451e947921f13cb4ed75c6418051e8
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: TimeScale
+  - hash:
+      serializedVersion: 2
+      Hash: 2b57306634800bbb98d5409b94c1bc83
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: Spline
+  - hash:
+      serializedVersion: 2
+      Hash: 78dbaaa8fdceda117bd9a9aba8450f1a
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: SplineFollower
+  - hash:
+      serializedVersion: 2
+      Hash: e44f43160540f4004ef3250f3a4ef495
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: SplineFollowerChaser
+  - hash:
+      serializedVersion: 2
+      Hash: 8f9df66c307cccfcdc92b25cfa804ee3
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: SplineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: fcec9dd28c3822eebd388963b41464fc
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: AttachToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: bc5042bd6e84ce78762a821b6d8b0a97
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: BindLocalRotation
+  - hash:
+      serializedVersion: 2
+      Hash: fff1a32deae5d332d9da4054ff9bffa2
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: PositionAttachTo
+  - hash:
+      serializedVersion: 2
+      Hash: ec8f8c3f378da05870d9a234004d3b3c
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: PositionController
+  - hash:
+      serializedVersion: 2
+      Hash: e679ba2c992ac9dfec382eb3dffe5ee2
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: PositionInput
+  - hash:
+      serializedVersion: 2
+      Hash: 32a424c88c583419800c861e93a92bce
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: RotationController
+  - hash:
+      serializedVersion: 2
+      Hash: 3d5099a23e621f1ec227b2307dd66fec
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: RotationInput
+  - hash:
+      serializedVersion: 2
+      Hash: eb1acc4d48e4325b550b3ebba5d17237
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: RotationLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 48d34706f40e15cf2f31b642bdafe968
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: ScaleController
+  - hash:
+      serializedVersion: 2
+      Hash: 152a73109c5ea6b5a909b7ae748143a8
+    assemblyName: VehiclePhysics.dll
+    namespaceName: EdyCommonTools
+    className: RuntimeCanvasBase
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/MyOwnProject/DreamProject/DirtRACE.exe

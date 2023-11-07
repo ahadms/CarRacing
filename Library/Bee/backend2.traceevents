@@ -1,0 +1,394 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1699243579563014, "dur":58014, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243579621034, "dur":69, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243579621151, "dur":394, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243579621679, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1699243579622102, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/EasyRoads3Dv3.dll" }}
+,{ "pid":12345, "tid":0, "ts":1699243579622430, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1699243579622618, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1699243579622884, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":0, "ts":1699243579623087, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1699243579623493, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1699243579621559, "dur":4923, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243579626485, "dur":23293794, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243602920281, "dur":616, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243602920898, "dur":256, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243602921316, "dur":22944, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1699243579623381, "dur":3204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699243579626588, "dur":763, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699243579627352, "dur":575, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699243579627927, "dur":6199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699243579634130, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1699243582539318, "dur":593797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1699243583133202, "dur":388107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1699243583521311, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699243583521413, "dur":86994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699243583608432, "dur":251568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699243583860044, "dur":131530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1699243583991613, "dur":452231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/DelaunayER.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699243584443889, "dur":52609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1699243584496527, "dur":63226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1699243584559777, "dur":235060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1699243584794895, "dur":446358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1699243585241255, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1699243585431687, "dur":1408734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1699243586840485, "dur":13180489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1699243600020988, "dur":2899307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699243579623574, "dur":3043, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699243579626618, "dur":716, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699243579627334, "dur":798, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699243579628132, "dur":5993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699243579744434, "dur":37921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1699243579782421, "dur":35622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243579818072, "dur":91750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243579909846, "dur":636131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243580546016, "dur":1202096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243581748149, "dur":971935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243582720108, "dur":531857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1699243583251993, "dur":328514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243583580543, "dur":123465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243583704047, "dur":287558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243583991744, "dur":451728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1699243584443506, "dur":50182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.HierarchyCoreModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1699243584493716, "dur":63790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699243584557528, "dur":180122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1699243584737691, "dur":63197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1699243584800907, "dur":631016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1699243585500267, "dur":4472689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1699243589972971, "dur":12947327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699243579622529, "dur":3980, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699243579626512, "dur":761, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699243579627273, "dur":605, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699243579627879, "dur":6250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699243579634130, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1699243580242355, "dur":382447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1699243580624871, "dur":1123014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699243581747927, "dur":726965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1699243582474931, "dur":943360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699243583418311, "dur":186361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1699243583604697, "dur":191201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699243583795915, "dur":195264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699243583991200, "dur":455904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699243584447127, "dur":57281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1699243584504441, "dur":55297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1699243584559779, "dur":236154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1699243584795969, "dur":373802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1699243585170267, "dur":261556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1699243585431857, "dur":4161038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1699243589592906, "dur":13327407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699243579623369, "dur":3207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699243579626579, "dur":759, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699243579627338, "dur":573, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699243579627911, "dur":6221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699243579788557, "dur":31024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1699243579819630, "dur":90196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699243579909869, "dur":510467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243580420369, "dur":777911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243581198320, "dur":796048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699243581994428, "dur":794393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243582788842, "dur":629371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243583418247, "dur":162685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GraphToolsFoundationModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243583580949, "dur":123051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243583704044, "dur":287543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243583991607, "dur":442263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243584433892, "dur":59711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243584493630, "dur":26956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699243584520606, "dur":46508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699243584567130, "dur":227623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699243584794784, "dur":255248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1699243585139656, "dur":291826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1699243585431524, "dur":14098901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1699243599530437, "dur":3389878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243579622967, "dur":3561, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243579626531, "dur":757, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243579627288, "dur":583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243579627872, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243579628406, "dur":5703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243579653749, "dur":73208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1699243579727010, "dur":49046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243579776076, "dur":41648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243579817743, "dur":32084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243579849857, "dur":570099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243580419981, "dur":1509075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243581929075, "dur":1048984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243582978083, "dur":440317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243583418445, "dur":186872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243583605387, "dur":98584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243583704008, "dur":287574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243583991618, "dur":119, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699243583991740, "dur":442173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243584433969, "dur":60147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243584494168, "dur":55212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243584549407, "dur":17647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243584567069, "dur":233937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699243584801031, "dur":630616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.MultiplayerModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1699243585431653, "dur":7789446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1699243593221114, "dur":9699219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699243579623218, "dur":3326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699243579626547, "dur":762, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699243579627310, "dur":597, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699243579627907, "dur":6221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699243579787919, "dur":29712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1699243579817699, "dur":32008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243579849851, "dur":570030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243580419899, "dur":872001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243581291951, "dur":702680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243581994651, "dur":1138074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243583132774, "dur":388531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243583521348, "dur":103176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243583624555, "dur":306211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243583930790, "dur":436537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243584367354, "dur":79810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243584447195, "dur":57377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243584504604, "dur":55179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.InputSystem.ForUI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243584559801, "dur":239879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243584799713, "dur":631665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1699243585434467, "dur":6193056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699243591627566, "dur":11292734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699243579622382, "dur":4119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699243579626504, "dur":774, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699243579627279, "dur":621, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699243579627901, "dur":6201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699243582977753, "dur":214180, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":7, "ts":1699243583191939, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1699243583192033, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1699243583192695, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player83f76c26-inputdata.json" }}
+,{ "pid":12345, "tid":7, "ts":1699243583191936, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1699243583251882, "dur":230, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699243583418847, "dur":145748, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1699243583571023, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1699243583571015, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1699243583571088, "dur":129707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1699243583700839, "dur":230462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1699243583931317, "dur":304899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1699243584236240, "dur":207511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1699243584443806, "dur":51899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699243584495723, "dur":61958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699243584557706, "dur":237641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699243584795364, "dur":635542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699243585430908, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1699243585899066, "dur":7143518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1699243593042685, "dur":9877644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699243579622802, "dur":3716, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699243579626521, "dur":737, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699243579627258, "dur":543, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699243579627801, "dur":384, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699243579628185, "dur":5921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699243579634109, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243579848883, "dur":3675157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243583524105, "dur":100270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243583624396, "dur":306796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/VehiclePhysics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243583931207, "dur":341012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243584272251, "dur":171586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243584443865, "dur":50354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1699243584494279, "dur":63286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1699243584557584, "dur":125787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243584683406, "dur":117707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699243584801114, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1699243584801193, "dur":249024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1699243585051278, "dur":380120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1699243585431490, "dur":4161398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1699243589592901, "dur":13327380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699243579623293, "dur":3267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699243579626563, "dur":784, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699243579627347, "dur":604, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699243579627951, "dur":6184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699243581291812, "dur":637197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1699243581929072, "dur":859762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1699243582788869, "dur":629627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699243583418519, "dur":189919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1699243583608461, "dur":187651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699243583796126, "dur":195472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1699243583991841, "dur":442054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.InputForUIModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1699243584433960, "dur":59847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1699243584493821, "dur":26869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699243584520725, "dur":39020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1699243584559799, "dur":235744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699243584795559, "dur":704353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699243585499940, "dur":17420230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1699243579623341, "dur":3227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699243579626571, "dur":718, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699243579627290, "dur":574, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699243579627864, "dur":535, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699243579628399, "dur":5719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699243579655429, "dur":70539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1699243579726071, "dur":31193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243579757284, "dur":42544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243579799867, "dur":31684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243579831570, "dur":78359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243579909945, "dur":510531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243580420493, "dur":1327047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243581747564, "dur":1041112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243582788695, "dur":630305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243583419037, "dur":161859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243583580916, "dur":214718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243583795675, "dur":374575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.InputSystem.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1699243584170297, "dur":273471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1699243584443808, "dur":50894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1699243584494717, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243584494805, "dur":64099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243584558929, "dur":236148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243584795127, "dur":635740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243585430955, "dur":6688675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699243592119720, "dur":10800590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699243579623117, "dur":3419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699243579626540, "dur":726, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699243579627267, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699243579627825, "dur":494, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699243579628319, "dur":5815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699243579831355, "dur":18477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1699243579849899, "dur":570393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243580420312, "dur":1015278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243581435613, "dur":693451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243582129080, "dur":1122894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243583251976, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243583252083, "dur":304106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243583556205, "dur":68178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243583624399, "dur":235671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243583860107, "dur":131023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243583991186, "dur":377151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243584368362, "dur":88313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243584456719, "dur":47634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243584504369, "dur":54712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243584559116, "dur":241757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243584800890, "dur":630474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.MarshallingModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1699243585431365, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/D3D12/d3d12SDKLayers.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243585898097, "dur":5729388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/D3D12/d3d12SDKLayers.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699243591627546, "dur":11292751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699243579623245, "dur":3306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699243579626554, "dur":717, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699243579627272, "dur":568, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699243579627840, "dur":555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699243579628395, "dur":5718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699243579634116, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1699243579725449, "dur":18954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1699243579744459, "dur":36971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243579781458, "dur":36262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243579817741, "dur":31959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1699243579849849, "dur":569928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243580419816, "dur":1328291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1699243581748123, "dur":727078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243582475262, "dur":776642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1699243583251907, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243583251989, "dur":316393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243583568408, "dur":134753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1699243583703177, "dur":288400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1699243583991604, "dur":442130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243584433756, "dur":39119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243584472897, "dur":31525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243584504450, "dur":54627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243584559110, "dur":235907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243584795034, "dur":635845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/EasyRoads3Dv3.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699243585430903, "dur":3177007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE.exe" }}
+,{ "pid":12345, "tid":12, "ts":1699243588607947, "dur":3748584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1699243592356561, "dur":10563743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699243579622106, "dur":4388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699243579626497, "dur":7600, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699243579634108, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/17733085825163184935.rsp" }}
+,{ "pid":12345, "tid":13, "ts":1699243579634356, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579634481, "dur":354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579634838, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579635107, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579635202, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579635319, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579635431, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579635491, "dur":778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579636316, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579636623, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579636736, "dur":415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579637153, "dur":282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579637484, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579638217, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MyOwnProject\\DirtRACE\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":13, "ts":1699243579634181, "dur":4454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/MyOwnProject/DirtRACE/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":13, "ts":1699243579638636, "dur":1042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699243579642698, "dur":28415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579671147, "dur":58597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579729762, "dur":46245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579776045, "dur":41969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579818048, "dur":91783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243579909877, "dur":510438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243580420363, "dur":948382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243581368766, "dur":760203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243582128993, "dur":1004271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1699243583133285, "dur":390336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243583523647, "dur":100753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243583624425, "dur":235835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1699243583860312, "dur":310067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243584170403, "dur":286211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1699243584456636, "dur":48004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1699243584504665, "dur":55069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243584559796, "dur":235037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699243584794871, "dur":446336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1699243585241211, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1699243585241304, "dur":193463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1699243585434808, "dur":5620136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/resources.resource" }}
+,{ "pid":12345, "tid":13, "ts":1699243591054957, "dur":11865332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699243579623412, "dur":3184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699243579626600, "dur":721, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699243579627322, "dur":575, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699243579627897, "dur":6206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699243579637142, "dur":15693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1699243579652899, "dur":33582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1699243579686498, "dur":55815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1699243579742372, "dur":40325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243579782719, "dur":38415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243579821151, "dur":28971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243579850154, "dur":570027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243580420198, "dur":1327475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243581747752, "dur":1041361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243582850706, "dur":477375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243583328104, "dur":233830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243583561954, "dur":142042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1699243583704016, "dur":227049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.ValueTuple.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243583931101, "dur":437376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243584368503, "dur":78664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.CommandStateObserverModule.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1699243584447194, "dur":48502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1699243584495713, "dur":61845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243584557577, "dur":180445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243584738039, "dur":199333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1699243585049768, "dur":380486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1699243585432936, "dur":3174361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699243588607391, "dur":4257482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1699243592864884, "dur":10055401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699243579623481, "dur":3124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699243579626608, "dur":729, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699243579627338, "dur":595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699243579627934, "dur":6204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699243579634139, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1699243581994652, "dur":605136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1699243582599882, "dur":652054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699243583251991, "dur":274413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699243583526422, "dur":173741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699243583700200, "dur":290792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1699243583991012, "dur":377065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699243584368122, "dur":79074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1699243584447212, "dur":57368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1699243584504629, "dur":53002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699243584557689, "dur":211260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699243584768975, "dur":32053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1699243584801067, "dur":630615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":15, "ts":1699243585431754, "dur":3715871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1699243589147665, "dur":3446636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1699243592594313, "dur":10326022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699243579623519, "dur":3095, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699243579626616, "dur":683, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699243579627299, "dur":575, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699243579627874, "dur":284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699243579628158, "dur":5983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699243580942849, "dur":733905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1699243581676855, "dur":532062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243582208947, "dur":924079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Assembly-CSharp-firstpass.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1699243583133063, "dur":423050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243583556136, "dur":136749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243583692947, "dur":298126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243583991091, "dur":442791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/Microsoft.CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243584433939, "dur":60036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1699243584493992, "dur":55667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1699243584549675, "dur":17500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1699243584567194, "dur":233904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243584801117, "dur":630278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243585431496, "dur":1849063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699243587280622, "dur":4839016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MyOwnProject/DreamProject/DirtRACE_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1699243592119652, "dur":10800606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699243603003001, "dur":953, "ph":"X", "name": "ProfilerWriteOutput" }
+,

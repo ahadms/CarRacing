@@ -1,0 +1,122 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname=".BCG_Inputs" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_Camera/CameraTarget" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_CarControllerV3/Gear" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_ChangableWheels/ChangableWheels" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_Damage" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_DashboardObjects/FuelDial" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_DashboardObjects/HeatDial" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_DashboardObjects/RPMDial" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_DashboardObjects/SpeedoMeterDial" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_Emission" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_GroundMaterials/GroundMaterialFrictions" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_GroundMaterials/TerrainFrictions" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_GroundMaterials/TerrainFrictions/SplatmapIndexes" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_Inputs" preserve="nothing" serialized="true"/>
+		<type fullname=".RCC_Settings/BehaviorType" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.UI.Dashboard/Needle" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.UI.GenericMenu/MenuItem" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="UnityStandardAssets.Utility.WaypointCircuit/WaypointList" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Cinemachine">
+		<type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true"/>
+		<type fullname="Cinemachine.CinemachineBrain/BrainEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Cinemachine.CinemachineBrain/VcamActivatedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true"/>
+		<type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="EasyRoads3Dv3">
+		<type fullname="EasyRoads3Dv3.ERCrossWalkType" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERLaneDirection" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERMarkerControlType" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERRoadShape" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERRoadWayType" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERSideWalk" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERTerrainChange" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERTerrainData" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.ERTree" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.QDQDOOQQDQODD" preserve="nothing" serialized="true"/>
+		<type fullname="EasyRoads3Dv3.tPoint" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="PhotonRealtime">
+		<type fullname="Photon.Realtime.AppSettings" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="PhotonUnityNetworking">
+		<type fullname="Photon.Pun.PhotonAnimatorView/SynchronizedLayer" preserve="nothing" serialized="true"/>
+		<type fullname="Photon.Pun.PhotonAnimatorView/SynchronizedParameter" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.InputSystem">
+		<type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.IMGUIModule">
+		<type fullname="UnityEngine.GUIContent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.GUISettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.GUIStyle" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="VehiclePhysics">
+		<type fullname="EdyCommonTools.RotationController/Rotation" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.AntiSpin/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Brakes/AbsSettings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Brakes/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.CameraAttachTo" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.CameraFree" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.CameraLookAt" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.CameraOrbit" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.CameraSmoothFollow" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Differential/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Driveline/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Engine/ClutchSettings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Engine/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Gearbox/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Inertia/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.SpeedControl/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.StabilityControl/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Steering/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.SteeringAids/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.Telemetry" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.TireFriction" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.TireFriction/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.TorqueSplitter/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.TractionControl/Settings" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAudio/Drags" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAudio/Engine" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAudio/EngineExtras" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAudio/Impacts" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAudio/Wheels" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAudio/Wind" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPAxle" preserve="nothing" serialized="true"/>
+		<type fullname="VehiclePhysics.VPCameraTarget/CustomCamera" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>
